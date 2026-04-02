@@ -49,11 +49,15 @@ body{
 }
 #msg{
     color: rgb(59, 29, 86);
-    font-size: 8vmin;
+    font-size: 5vmin;
+    text-align: center;
 }
 .message-container{
-    height: 20vmin;
+    padding: 1rem;
 }
 .hide{
     display: none;
 }
+h1{
+    margin-top: 2rem;
+                           }
