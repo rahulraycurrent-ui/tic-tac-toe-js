@@ -12,8 +12,21 @@
     <button id="newgame-btn">new game</button>
   </div>
         <h1>tic-toc-toe</h1>
-  <div class="container">
+        <div class="controls">
+  <button id="friend">Play with Friend</button>
+  <button id="computer">Play with Computer</button>
 
+  <div id="difficulty-box" class="hide">
+    <button data-level="easy">Easy</button>
+    <button data-level="medium">Medium</button>
+    <button data-level="hard">Hard</button>
+  </div>
+</div>
+  <div class="container">
+<div id="symbol-box" class="hide">
+  <button data-symbol="X">Play as X</button>
+  <button data-symbol="O">Play as O</button>
+</div>
     <div class="game">
         <button class="box"></button>
         <button class="box"></button>
@@ -31,4 +44,4 @@
   <button id="reset">reset game</button>
 <script src="script.js"></script>    
 </body>
-</html>
+            </html>
